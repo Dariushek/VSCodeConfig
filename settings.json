@@ -1,0 +1,11 @@
+{
+    "workbench.sideBar.location": "left",
+    "python.pythonPath": "C:\\Users\\DariuszBorawski\\Anaconda3\\python.exe",
+    "dotnet-test-explorer.autoExpandTree": true,
+    "dotnet-test-explorer.runInParallel": true,
+    "dotnet-test-explorer.autoWatch": true,
+    "window.zoomLevel": 0,
+    "[csharp]": {
+        
+    }
+}
