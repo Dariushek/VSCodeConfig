@@ -1,0 +1,8 @@
+code --install-extension ms-vscode.csharp
+code --install-extension jchannon.csharpextensions
+code --install-extension fudge.auto-using
+code --install-extension formulahendry.dotnet-test-explorer
+code --install-extension formulahendry.dotnet
+code --install-extension jorgeserrano.vscode-csharp-snippets
+code --install-extension formulahendry.code-runner
+code --install-extension jmrog.vscode-nuget-package-manager
