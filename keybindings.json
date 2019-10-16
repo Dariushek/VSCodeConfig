@@ -183,5 +183,23 @@
         "key": "ctrl+shift+alt+up",
         "command": "-cursorColumnSelectUp",
         "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+r ctrl+a",
+        "command": "dotnet-test-explorer.runAllTests"
+    },
+    {
+        "key": "ctrl+r ctrl+t",
+        "command": "dotnet-test-explorer.runTestInContext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+r alt+c",
+        "command": "-dotnet-test-explorer.runTestInContext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+r alt+a",
+        "command": "-dotnet-test-explorer.runAllTests"
     }
 ]
