@@ -49,7 +49,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+r r",
+        "key": "ctrl+r ctrl+r",
         "command": "editor.action.rename",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
@@ -67,5 +67,121 @@
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
+    },
+    {
+        "key": "ctrl+shift+f9",
+        "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+    },
+    {
+        "key": "ctrl+f10",
+        "command": "editor.debug.action.runToCursor"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.action.files.openFileFolderInNewWindow"
+    },
+    {
+        "key": "alt+f12",
+        "command": "editor.action.referenceSearch.trigger",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.referenceSearch.trigger",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+r ctrl+w",
+        "command": "editor.action.toggleRenderWhitespace"
+    },
+    {
+        "key": "ctrl+oem_minus",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+oem_minus",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "cursorColumnSelectDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-cursorColumnSelectDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorColumnSelectLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "-cursorColumnSelectLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+pagedown",
+        "command": "cursorColumnSelectPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+pagedown",
+        "command": "-cursorColumnSelectPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+pageup",
+        "command": "cursorColumnSelectPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+pageup",
+        "command": "-cursorColumnSelectPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorColumnSelectRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "-cursorColumnSelectRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "cursorColumnSelectUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+up",
+        "command": "-cursorColumnSelectUp",
+        "when": "textInputFocus"
     }
 ]
