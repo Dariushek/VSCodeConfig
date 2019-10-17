@@ -13,5 +13,7 @@
     "files.exclude": {
         "**/bin": true,
         "**/obj": true
-    }
+    },
+    "omnisharp.enableRoslynAnalyzers": true,
+    "dotnet.enableTelemetry": false
 }
